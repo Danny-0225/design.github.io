@@ -481,3 +481,24 @@ footer a {
     font-family: var(--m_pro);
     margin: 0;
 }
+@media(max-width: 1000px) {
+   .header_nav .nav_bar {
+        justify-content: center;
+    }
+    .logo_div {
+        margin: 0 auto;
+    }
+}
+@media(max-width: 412px){
+    .nav_bar ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .infos {
+        flex-wrap: wrap;
+
+    }
+    .buy form fieldset .infos input:nth-child(1) {
+        margin-right: 0;
+    }
+}
