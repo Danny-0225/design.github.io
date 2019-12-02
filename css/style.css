@@ -501,4 +501,19 @@ footer a {
     .buy form fieldset .infos input:nth-child(1) {
         margin-right: 0;
     }
+    .header_content h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .header_content p {
+        font-size: 14px;
+    }
+    .header_content {
+        justify-content: flex-start;
+        margin-top: -60px;
+    }
+
 }
+.buy form fieldset .infos input {
+padding-right: 15px;
+padding-left: 15px;}
