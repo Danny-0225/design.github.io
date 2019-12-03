@@ -30,6 +30,9 @@ a {
     color: inherit;
 
 }
+html,body{
+    scroll-behavior: smooth;
+}
 
 a:hover {
     text-decoration: none;
