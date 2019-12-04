@@ -517,6 +517,9 @@ footer a {
     }
 
 }
+@media(max-width: 518px) {
+    .p_control{
+        margin:0 auto;}}
 .buy form fieldset .infos input {
 padding-right: 15px;
 padding-left: 15px;}
